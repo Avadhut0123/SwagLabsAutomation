@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-07-16T11:46:01 IST" name="Suite" finished-at="2025-07-16T11:46:17 IST" duration-ms="15643">
+    <groups>
+      <group name="ErrorHandling">
+        <method signature="LoginErrorValidationTest.LoginWithLockedUser()[pri:0, instance:avadhutwakkar.TestCases.LoginErrorValidationTest@37c7595]" name="LoginWithLockedUser" class="avadhutwakkar.TestCases.LoginErrorValidationTest"/>
+      </group> <!-- ErrorHandling -->
+      <group name="Purchase">
+        <method signature="SubmitOrderTest.SubmitOrder(java.util.HashMap)[pri:0, instance:avadhutwakkar.TestCases.SubmitOrderTest@5143c662]" name="SubmitOrder" class="avadhutwakkar.TestCases.SubmitOrderTest"/>
+      </group> <!-- Purchase -->
+    </groups>
+    <test started-at="2025-07-16T11:46:01 IST" name="Error Validation Test" finished-at="2025-07-16T11:46:11 IST" duration-ms="9115">
+      <class name="avadhutwakkar.TestCases.LoginErrorValidationTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:avadhutwakkar.TestCases.LoginErrorValidationTest@37c7595]" started-at="2025-07-16T11:46:01 IST" name="launchApplication" finished-at="2025-07-16T11:46:05 IST" duration-ms="3673" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="LoginWithLockedUser()[pri:0, instance:avadhutwakkar.TestCases.LoginErrorValidationTest@37c7595]" started-at="2025-07-16T11:46:05 IST" name="LoginWithLockedUser" finished-at="2025-07-16T11:46:06 IST" duration-ms="565" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginWithLockedUser -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:avadhutwakkar.TestCases.LoginErrorValidationTest@37c7595]" started-at="2025-07-16T11:46:06 IST" name="tearDown" finished-at="2025-07-16T11:46:06 IST" duration-ms="237" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:avadhutwakkar.TestCases.LoginErrorValidationTest@37c7595]" started-at="2025-07-16T11:46:06 IST" name="launchApplication" finished-at="2025-07-16T11:46:08 IST" duration-ms="1861" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="LoginWithProblemUser()[pri:0, instance:avadhutwakkar.TestCases.LoginErrorValidationTest@37c7595]" started-at="2025-07-16T11:46:08 IST" name="LoginWithProblemUser" finished-at="2025-07-16T11:46:10 IST" duration-ms="2490" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginWithProblemUser -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:avadhutwakkar.TestCases.LoginErrorValidationTest@37c7595]" started-at="2025-07-16T11:46:10 IST" name="tearDown" finished-at="2025-07-16T11:46:11 IST" duration-ms="232" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- avadhutwakkar.TestCases.LoginErrorValidationTest -->
+    </test> <!-- Error Validation Test -->
+    <test started-at="2025-07-16T11:46:01 IST" name="Submit Order Test" finished-at="2025-07-16T11:46:17 IST" duration-ms="15643">
+      <class name="avadhutwakkar.TestCases.SubmitOrderTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:avadhutwakkar.TestCases.SubmitOrderTest@5143c662]" started-at="2025-07-16T11:46:02 IST" name="launchApplication" finished-at="2025-07-16T11:46:05 IST" duration-ms="3668" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="SubmitOrder(java.util.HashMap)[pri:0, instance:avadhutwakkar.TestCases.SubmitOrderTest@5143c662]" started-at="2025-07-16T11:46:05 IST" name="SubmitOrder" data-provider="getData" finished-at="2025-07-16T11:46:08 IST" duration-ms="2728" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=secret_sauce, email=standard_user, productName=Sauce Labs Bike Light}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SubmitOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:avadhutwakkar.TestCases.SubmitOrderTest@5143c662]" started-at="2025-07-16T11:46:08 IST" name="tearDown" finished-at="2025-07-16T11:46:08 IST" duration-ms="204" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:avadhutwakkar.TestCases.SubmitOrderTest@5143c662]" started-at="2025-07-16T11:46:08 IST" name="launchApplication" finished-at="2025-07-16T11:46:10 IST" duration-ms="1871" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="SubmitOrder(java.util.HashMap)[pri:0, instance:avadhutwakkar.TestCases.SubmitOrderTest@5143c662]" started-at="2025-07-16T11:46:10 IST" name="SubmitOrder" data-provider="getData" finished-at="2025-07-16T11:46:13 IST" duration-ms="2942" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=secret_sauce, email=standard_user, productName=Sauce Labs Backpack}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SubmitOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:avadhutwakkar.TestCases.SubmitOrderTest@5143c662]" started-at="2025-07-16T11:46:13 IST" name="tearDown" finished-at="2025-07-16T11:46:13 IST" duration-ms="241" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:avadhutwakkar.TestCases.SubmitOrderTest@5143c662]" started-at="2025-07-16T11:46:13 IST" name="launchApplication" finished-at="2025-07-16T11:46:15 IST" duration-ms="1960" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="productPage()[pri:0, instance:avadhutwakkar.TestCases.SubmitOrderTest@5143c662]" started-at="2025-07-16T11:46:15 IST" name="productPage" finished-at="2025-07-16T11:46:17 IST" depends-on-methods="avadhutwakkar.TestCases.SubmitOrderTest.SubmitOrder" duration-ms="1463" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:avadhutwakkar.TestCases.SubmitOrderTest@5143c662]" started-at="2025-07-16T11:46:17 IST" name="tearDown" finished-at="2025-07-16T11:46:17 IST" duration-ms="241" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- avadhutwakkar.TestCases.SubmitOrderTest -->
+    </test> <!-- Submit Order Test -->
+  </suite> <!-- Suite -->
+</testng-results>
