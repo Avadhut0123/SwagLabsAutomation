@@ -16,7 +16,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 public class StandAloneTest {
 
 	public static void main(String[] args) throws InterruptedException {
-		// TODO Auto-generated method stub
+		// TODO Auto-generated method stub1
 
 		String productName = "Sauce Labs Bike Light";
 		WebDriverManager.chromedriver().setup();
